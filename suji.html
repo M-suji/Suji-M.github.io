@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesonal portfolio website</title>
+    <link rel="stylesheet" href="suji.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "zex-4qYMXym2ccc_h",
+        });
+    })();
+    </script>
+    <script src="suji.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="image/suji logo3.png" alt="">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>I'm <span>Suji M</span></h1>
+            <p>A Tech enthusiast pursuing a B.Tech in IT <br>with skills in Python, SQL, 
+                and Data Visualization.<br>I’m passionate about innovative solutions <br>and 
+                hands-on projects that make a real-world impact.</b></br></br></p>
+            <div class="social-icons">
+                <a href=" "><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/suji-m-8718772a8/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/M-suji"><i class="fa-brands fa-github"></i></a>
+                
+            </div>
+        <a href="https://drive.google.com/file/d/1QK4G0LXwgSti_52w8uobzRkyys9rzr3g/view?usp=drive_link">DOWNLOAD CV</a>
+        </div>
+        <div class="images">
+            <img src="image/shape-r.png" class="shape">
+            <img src="image/sujipic.png" class="girl">
+        </div>
+    </div>
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021-2025</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology in Information Technology</h3>
+                        <p>Rathinam Technical Campus,Coimbatore<br>CGPA:7.51</br> </p>
+                    </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020-2021</div>
+                    <div class="timeline-content">
+                        <h3>All India senior school certificate(12th grade)</h3>
+                        <p>Velammal Vidhyalaya,CBSE,Theni<br>percentage:86</br></p>
+                    </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018-2019</div>
+                    <div class="timeline-content">
+                        <h3>All India secondary school certificate(10th grade)</h3>
+                        <p>Montfort school,CBSE,Idukki<br>Percentage:73</br></p>
+                    </div>
+            </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Data Analytics and Visualization</h4>
+                    <p>Creating insightful dashboards and reports using Power BI for financial tracking, business analysis, and performance metrics.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Frontend Developer</h4>
+                    <p>Building basic websites and web pages with front-end design HTML, css and javascript.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Python rogramming</h4>
+                    <p>Developing scripts, automation tools, and basic software solutions using Python.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>SQL Database Management</h4>
+                    <p>Designing and managing databases, writing queries, and optimizing data storage and retrieval.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                    <input type="email" placeholder="Email" id="email" class="item" autocomplete="off"> 
+                </div>
+                <div class="input-box">
+                    <input type="number"placeholder="Phone Number" id="phone" class="item" autocomplete="off">
+                    <input typr="text"placeholder="Subject" id="subject" class="item" autocapitalize="off">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+                <input type="submit" value="sendMessage" onclick="sendMail()"class="btn">
+            </div>
+        </form>
+        
+
+    </section>
+    
+    <footer class="footer">
+        <div class="social">
+            <a href=" "><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/suji-m-8718772a8/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/M-suji"><i class="fa-brands fa-github"></i></a>
+                
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#home">About Me</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            
+        </ul>
+        <p class="copyright">
+            © copyright | All Rights Reserved
+        </p>
+
+    </footer>
+    
+</body>
+</html>
